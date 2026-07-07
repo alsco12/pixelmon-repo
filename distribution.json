@@ -1,0 +1,519 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "385581240906022916",
+    "smallImageText": "seolpyo.kr",
+    "smallImageKey": "seal-circle"
+  },
+  "java": {
+    "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+  },
+  "rss": "https://github.com/alsco12/pixelmon-repo/releases.atom",
+  "servers": [
+    {
+      "id": "my-pokemon-server",
+      "name": "seolpyo.kr",
+      "type": "Fabric",
+      "description": "Welcome to Seolpyo Pixelmon Server!",
+      "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/app/assets/images/SealCircle.png",
+      "version": "1.0.0",
+      "address": "seolpyo.kr",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "modules": [
+        {
+          "id": "net.minecraft",
+          "version": "1.21.1",
+          "type": "Minecraft",
+          "required": true
+        },
+        {
+          "id": "net.fabricmc.fabric-loader",
+          "version": "0.16.1",
+          "type": "Fabric",
+          "required": true
+        },
+        {
+          "id": "accessories-fabric-1-1-0-beta-53-1-21-1",
+          "name": "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 1095802,
+            "MD5": "1f332447eadf66a07b33e641816fcd5e",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/accessories-fabric-1.1.0-beta.53+1.21.1.jar"
+          },
+          "path": "mods/accessories-fabric-1.1.0-beta.53+1.21.1.jar"
+        },
+        {
+          "id": "architectury-13-0-8-fabric",
+          "name": "architectury-13.0.8-fabric.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 600915,
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/architectury-13.0.8-fabric.jar"
+          },
+          "path": "mods/architectury-13.0.8-fabric.jar"
+        },
+        {
+          "id": "capturexp-fabric-1-7-3-1-3-0",
+          "name": "capturexp-fabric-1.7.3-1.3.0.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 22848,
+            "MD5": "e6fc02948bb7b46b6554bc6df987e6f2",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/capturexp-fabric-1.7.3-1.3.0.jar"
+          },
+          "path": "mods/capturexp-fabric-1.7.3-1.3.0.jar"
+        },
+        {
+          "id": "cobble-caf-forms-5-0-0",
+          "name": "cobble-caf-forms-5.0.0.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 2884487,
+            "MD5": "23a4c8291963bd9ee05c45d1cf779bcb",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/cobble-caf-forms-5.0.0.jar"
+          },
+          "path": "mods/cobble-caf-forms-5.0.0.jar"
+        },
+        {
+          "id": "cobbledex-rei-emi-jei-fabric-2-0-2",
+          "name": "cobbledex-rei-emi-jei-fabric-2.0.2.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 5003681,
+            "MD5": "78aa646c4ba9dfb82cfa8a04770c6b31",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/cobbledex-rei-emi-jei-fabric-2.0.2.jar"
+          },
+          "path": "mods/cobbledex-rei-emi-jei-fabric-2.0.2.jar"
+        },
+        {
+          "id": "cobblemon-fabric-1-7-3-1-21-1",
+          "name": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 135801550,
+            "MD5": "1de64f280372ec94e4376976fb579d52",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar"
+          },
+          "path": "mods/Cobblemon-fabric-1.7.3+1.21.1.jar"
+        },
+        {
+          "id": "cobblemon-ui-tweaks-1-0-7",
+          "name": "cobblemon-ui-tweaks-1.0.7.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 64439,
+            "MD5": "ca8cb2cd9524a22b0c3a643de544e602",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/cobblemon-ui-tweaks-1.0.7.jar"
+          },
+          "path": "mods/cobblemon-ui-tweaks-1.0.7.jar"
+        },
+        {
+          "id": "cobblemonintegrations-fabric-1-21-1-1-1-6",
+          "name": "cobblemonintegrations-fabric-1.21.1-1.1.6.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 373321,
+            "MD5": "90e5df694ce88be4c0d95673a71b2036",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/cobblemonintegrations-fabric-1.21.1-1.1.6.jar"
+          },
+          "path": "mods/cobblemonintegrations-fabric-1.21.1-1.1.6.jar"
+        },
+        {
+          "id": "cobblemonmoveinspector-fabric-1-3-0",
+          "name": "CobblemonMoveInspector-fabric-1.3.0.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 27781,
+            "MD5": "26d986c12332ee177bfa8a88bb751f67",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/CobblemonMoveInspector-fabric-1.3.0.jar"
+          },
+          "path": "mods/CobblemonMoveInspector-fabric-1.3.0.jar"
+        },
+        {
+          "id": "cobblemonsizevariationfabric-1-4-0-1-7-0",
+          "name": "CobblemonSizeVariationFabric-1.4.0+1.7.0.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 97158,
+            "MD5": "3f5c98d3a10f501cee9fc0f4921fe594",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/CobblemonSizeVariationFabric-1.4.0+1.7.0.jar"
+          },
+          "path": "mods/CobblemonSizeVariationFabric-1.4.0+1.7.0.jar"
+        },
+        {
+          "id": "cobblemonwikigui-fabric-2-4-2-1-21-1",
+          "name": "CobblemonWikiGui-fabric-2.4.2+1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 7760032,
+            "MD5": "76b95911ba7e21e7cde441c4df90b3f7",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/CobblemonWikiGui-fabric-2.4.2+1.21.1.jar"
+          },
+          "path": "mods/CobblemonWikiGui-fabric-2.4.2+1.21.1.jar"
+        },
+        {
+          "id": "cobblenav-fabric-2-3-3",
+          "name": "cobblenav-fabric-2.3.3.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 1090821,
+            "MD5": "efbc5e5e05966cfd45f94ea0f8591cf2",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/cobblenav-fabric-2.3.3.jar"
+          },
+          "path": "mods/cobblenav-fabric-2.3.3.jar"
+        },
+        {
+          "id": "cobbleworkers-fabric-2-0-4-1-7-0",
+          "name": "cobbleworkers-fabric-2.0.4+1.7.0.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 269625,
+            "MD5": "f2483971cef27f739f39b39dae36efd9",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/cobbleworkers-fabric-2.0.4+1.7.0.jar"
+          },
+          "path": "mods/cobbleworkers-fabric-2.0.4+1.7.0.jar"
+        },
+        {
+          "id": "cobbreeding-fabric-2-2-1",
+          "name": "Cobbreeding-fabric-2.2.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 475204,
+            "MD5": "34106709daece550d3eb5e0fad401a29",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/Cobbreeding-fabric-2.2.1.jar"
+          },
+          "path": "mods/Cobbreeding-fabric-2.2.1.jar"
+        },
+        {
+          "id": "essential-commands-0-35-2-mc1-21",
+          "name": "essential_commands-0.35.2-mc1.21.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 1442941,
+            "MD5": "be2d3b7f575ead0e44c0cb218a4fb711",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/essential_commands-0.35.2-mc1.21.jar"
+          },
+          "path": "mods/essential_commands-0.35.2-mc1.21.jar"
+        },
+        {
+          "id": "fabric-api-0-116-12-1-21-1",
+          "name": "fabric-api-0.116.12+1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 2427037,
+            "MD5": "f85c049c10c2240f89abe287ba0882d4",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/fabric-api-0.116.12+1.21.1.jar"
+          },
+          "path": "mods/fabric-api-0.116.12+1.21.1.jar"
+        },
+        {
+          "id": "fightorflight-fabric-0-10-8",
+          "name": "fightorflight-fabric-0.10.8.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 1424545,
+            "MD5": "37560b305a606c9665884402e26a64af",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/fightorflight-fabric-0.10.8.jar"
+          },
+          "path": "mods/fightorflight-fabric-0.10.8.jar"
+        },
+        {
+          "id": "flan-1-21-1-1-12-7-fabric",
+          "name": "flan-1.21.1-1.12.7-fabric.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 944034,
+            "MD5": "7169cd1da55131c42fcc20431f0acdc3",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/flan-1.21.1-1.12.7-fabric.jar"
+          },
+          "path": "mods/flan-1.21.1-1.12.7-fabric.jar"
+        },
+        {
+          "id": "forgeconfigapiport-v21-1-6-1-21-1-fabric",
+          "name": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 633065,
+            "MD5": "eba1a7f9d9976e983a2b9eb5e915e087",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+          },
+          "path": "mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+        },
+        {
+          "id": "geckolib-fabric-1-21-1-4-9-2",
+          "name": "geckolib-fabric-1.21.1-4.9.2.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 660416,
+            "MD5": "fe791e7b10c8b7c736ea3e57747eac09",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/geckolib-fabric-1.21.1-4.9.2.jar"
+          },
+          "path": "mods/geckolib-fabric-1.21.1-4.9.2.jar"
+        },
+        {
+          "id": "impactor-fabric-5-3-5-1-21-1",
+          "name": "Impactor-Fabric-5.3.5+1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 19673493,
+            "MD5": "d603bef62b079508eabe466f21aa905c",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/Impactor-Fabric-5.3.5+1.21.1.jar"
+          },
+          "path": "mods/Impactor-Fabric-5.3.5+1.21.1.jar"
+        },
+        {
+          "id": "indium-1-0-35-mc1-21",
+          "name": "indium-1.0.35+mc1.21.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 105000,
+            "MD5": "db92c620cb72a41403b928a0b45955d0",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/indium-1.0.35+mc1.21.jar"
+          },
+          "path": "mods/indium-1.0.35+mc1.21.jar"
+        },
+        {
+          "id": "jei-1-21-1-fabric-19-27-0-343",
+          "name": "jei-1.21.1-fabric-19.27.0.343.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 1562239,
+            "MD5": "9e6880baf3f92c75f1fc7bacb44f8358",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/jei-1.21.1-fabric-19.27.0.343.jar"
+          },
+          "path": "mods/jei-1.21.1-fabric-19.27.0.343.jar"
+        },
+        {
+          "id": "lithium-fabric-0-15-4-mc1-21-1",
+          "name": "lithium-fabric-0.15.4+mc1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 797454,
+            "MD5": "6fd6783640f42130f041b50cca2d3be6",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/lithium-fabric-0.15.4+mc1.21.1.jar"
+          },
+          "path": "mods/lithium-fabric-0.15.4+mc1.21.1.jar"
+        },
+        {
+          "id": "mega-showdown-fabric-1-8-4-1-7-3-1-21-1",
+          "name": "mega_showdown-fabric-1.8.4+1.7.3+1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 17213370,
+            "MD5": "0e3197dd14c98ce0240d498114cfe143",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/mega_showdown-fabric-1.8.4+1.7.3+1.21.1.jar"
+          },
+          "path": "mods/mega_showdown-fabric-1.8.4+1.7.3+1.21.1.jar"
+        },
+        {
+          "id": "morecobblemontweaks-fabric-1-3-3",
+          "name": "MoreCobblemonTweaks-fabric-1.3.3.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 137626,
+            "MD5": "8c9e870b8dc446ffdc98d106f65da075",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/MoreCobblemonTweaks-fabric-1.3.3.jar"
+          },
+          "path": "mods/MoreCobblemonTweaks-fabric-1.3.3.jar"
+        },
+        {
+          "id": "necronomicon-fabric-1-6-0-1-21",
+          "name": "Necronomicon-Fabric-1.6.0+1.21.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 37055,
+            "MD5": "e197f0343fe4965699ce56f381b54952",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/Necronomicon-Fabric-1.6.0+1.21.jar"
+          },
+          "path": "mods/Necronomicon-Fabric-1.6.0+1.21.jar"
+        },
+        {
+          "id": "owo-lib-0-12-15-4-1-21",
+          "name": "owo-lib-0.12.15.4+1.21.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 1183559,
+            "MD5": "3627aee17111e12a8c66928f5d7a3fba",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/owo-lib-0.12.15.4+1.21.jar"
+          },
+          "path": "mods/owo-lib-0.12.15.4+1.21.jar"
+        },
+        {
+          "id": "pokeblocks-1-5-0-1-21-1",
+          "name": "pokeblocks-1.5.0-1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 1775159,
+            "MD5": "1f95332b90c8a9a91e7b478f2c0a3ccd",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/pokeblocks-1.5.0-1.21.1.jar"
+          },
+          "path": "mods/pokeblocks-1.5.0-1.21.1.jar"
+        },
+        {
+          "id": "rctapi-fabric-1-21-1-0-15-2-beta",
+          "name": "rctapi-fabric-1.21.1-0.15.2-beta.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 234250,
+            "MD5": "fe02b1985ce18f764f41d8e802d38035",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/rctapi-fabric-1.21.1-0.15.2-beta.jar"
+          },
+          "path": "mods/rctapi-fabric-1.21.1-0.15.2-beta.jar"
+        },
+        {
+          "id": "simpletms-fabric-2-3-3",
+          "name": "SimpleTMs-fabric-2.3.3.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 821382,
+            "MD5": "9a9d474ca102e1d04fa89926fa837896",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/SimpleTMs-fabric-2.3.3.jar"
+          },
+          "path": "mods/SimpleTMs-fabric-2.3.3.jar"
+        },
+        {
+          "id": "sodium-fabric-0-6-13-mc1-21-1",
+          "name": "sodium-fabric-0.6.13+mc1.21.1.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 1297761,
+            "MD5": "aa37ba0048a1af6b554b137088cad484",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/sodium-fabric-0.6.13+mc1.21.1.jar"
+          },
+          "path": "mods/sodium-fabric-0.6.13+mc1.21.1.jar"
+        },
+        {
+          "id": "sophisticatedbackpacks-1-21-1-3-23-4-3-106",
+          "name": "sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 988478,
+            "MD5": "ae7046dd3850f1ad3a9bd7e954b1cb8a",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar"
+          },
+          "path": "mods/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar"
+        },
+        {
+          "id": "sophisticatedcore-1-21-1-1-2-9-21-168",
+          "name": "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 2996065,
+            "MD5": "0fcc53d829b59aea00440c6bed12c11d",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/sophisticatedcore-1.21.1-1.2.9.21.168.jar"
+          },
+          "path": "mods/sophisticatedcore-1.21.1-1.2.9.21.168.jar"
+        },
+        {
+          "id": "spawnnotification-fabric-1-7-3-2-3-0",
+          "name": "spawnnotification-fabric-1.7.3-2.3.0.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 244216,
+            "MD5": "01573aa2cfa4be9a99bf55e57584c0c7",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/spawnnotification-fabric-1.7.3-2.3.0.jar"
+          },
+          "path": "mods/spawnnotification-fabric-1.7.3-2.3.0.jar"
+        },
+        {
+          "id": "timcore-fabric-1-7-3-1-32-0",
+          "name": "timcore-fabric-1.7.3-1.32.0.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 304444,
+            "MD5": "f206df5480d269c0c0fe27846acb1d89",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/timcore-fabric-1.7.3-1.32.0.jar"
+          },
+          "path": "mods/timcore-fabric-1.7.3-1.32.0.jar"
+        },
+        {
+          "id": "voicechat-fabric-1-21-1-2-6-20",
+          "name": "voicechat-fabric-1.21.1-2.6.20.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 5361828,
+            "MD5": "eceef4cce4351ac0180ddeb125899a43",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/voicechat-fabric-1.21.1-2.6.20.jar"
+          },
+          "path": "mods/voicechat-fabric-1.21.1-2.6.20.jar"
+        },
+        {
+          "id": "worldedit-mod-7-3-8",
+          "name": "worldedit-mod-7.3.8.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 6222854,
+            "MD5": "f5d6f09ca5c4b1958780d01a099b779d",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/worldedit-mod-7.3.8.jar"
+          },
+          "path": "mods/worldedit-mod-7.3.8.jar"
+        },
+        {
+          "id": "xaerominimap-fabric-1-21-1-26-1-0",
+          "name": "xaerominimap-fabric-1.21.1-26.1.0.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 2177932,
+            "MD5": "ca4021163a3a2e0a605f1a21f1e73215",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/xaerominimap-fabric-1.21.1-26.1.0.jar"
+          },
+          "path": "mods/xaerominimap-fabric-1.21.1-26.1.0.jar"
+        },
+        {
+          "id": "ysns-fabric-quilt-mc1-21-1-0-6",
+          "name": "YSNS-Fabric_Quilt-MC1.21-1.0.6.jar",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "size": 7651,
+            "MD5": "fc32ef113ce28b5fdd95c712d5e0d993",
+            "url": "https://github.com/alsco12/pixelmon-repo/releases/download/v1.0.0/YSNS-Fabric_Quilt-MC1.21-1.0.6.jar"
+          },
+          "path": "mods/YSNS-Fabric_Quilt-MC1.21-1.0.6.jar"
+        }
+      ]
+    }
+  ]
+}
